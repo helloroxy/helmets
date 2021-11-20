@@ -23,7 +23,7 @@ dotenv.config();
 function runApp() {
   // Start listening for connections, and serve static files.
   const server = new WebHost({
-    // baseUrl: 'http://<ngrok-id>.ngrok.io',
+    baseUrl: 'https://dungeonworld.azurewebsites.net',
     baseDir: resolvePath(__dirname, '../public'),
     permissions: [Permissions.UserInteraction, Permissions.UserTracking]
   });
