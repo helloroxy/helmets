@@ -23,7 +23,8 @@ dotenv.config();
 function runApp() {
   // Start listening for connections, and serve static files.
   const server = new WebHost({
-    baseUrl: 'https://dungeonworld.azurewebsites.net',
+    //baseUrl: 'https://dungeonworld.azurewebsites.net',
+    //port: process.env.PORT,
     baseDir: resolvePath(__dirname, '../public'),
     permissions: [Permissions.UserInteraction, Permissions.UserTracking]
   });
