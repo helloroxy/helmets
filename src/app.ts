@@ -65,7 +65,7 @@ export default class WearAHat {
     // Options
     private previewMargin = 1.5; // spacing between preview objects
 
-    private controls = '../public/defaults.json';
+    private controls = '../public/none.json';
 
     /**
      * Constructs a new instance of this class.
