@@ -63,7 +63,7 @@ export default class WearAHat {
     private HatDatabase: { [key: string]: HatDescriptor } = {};
 
     // Options
-    private previewMargin = 1.2; // spacing between preview objects
+    private previewMargin = 1.3; // spacing between preview objects
 
     private controls = '../public/none.json';
 
